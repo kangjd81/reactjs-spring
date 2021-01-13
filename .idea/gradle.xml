@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../kaos" />
+        <option name="gradleJvm" value="11" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../kaos" />
+            <option value="$PROJECT_DIR$/../kaos/kaos.admin" />
+            <option value="$PROJECT_DIR$/../kaos/kaos.api" />
+            <option value="$PROJECT_DIR$/../kaos/kaos.common" />
+            <option value="$PROJECT_DIR$/../kaos/kaos.executor" />
+            <option value="$PROJECT_DIR$/../kaos/kaos.resource.corrector" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

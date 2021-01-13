@@ -2,11 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+      <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
-        <module name="springboot-backend" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.4/7103ab519b1cdbb0642ad4eaf1db209d905d0f96/lombok-1.18.4.jar" />
+        </processorPath>
+        <module name="kaos.kaos.common.main" />
+        <module name="kaos.kaos.executor.test" />
+        <module name="kaos.kaos.admin.main" />
+        <module name="kaos.kaos.resource.corrector.test" />
+        <module name="kaos.kaos.common.test" />
+        <module name="kaos.kaos.api.main" />
+        <module name="kaos.kaos.resource.corrector.main" />
+        <module name="kaos.kaos.api.test" />
+        <module name="kaos.kaos.executor.main" />
+        <module name="kaos.kaos.admin.test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
